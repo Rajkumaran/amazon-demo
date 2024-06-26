@@ -19,13 +19,13 @@ describe('template spec', () => {
   });
 
   
-  it.skip('search the prdouct', () => {
+  it('search the prdouct', () => {
         allure.severity(Severity.CRITICAL);       
         searchPage.searchproduct(searchkey)
         
   })
 
-  it.skip('filter the result with the brand key',()=>{      
+  it('filter the result with the brand key',()=>{      
         searchPage.searchproduct(searchkey)
         brandPage.filterByBrand(brandname)
         
